@@ -11,7 +11,7 @@ class TestSum(unittest.TestCase):
         """
         data = [20, 5]
         result = subtraction(data[0],data[1])
-        self.assertEqual(result, 12)
+        self.assertEqual(result, 15)
     def test_addition(self):
         result = addition(1,3)
         self.assertEqual(result, 4)
