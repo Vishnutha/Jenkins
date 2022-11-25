@@ -10,8 +10,8 @@ class TestSum(unittest.TestCase):
         Test case to add two numbers
         """
         data = [20, 5]
-        result = division(data[0],data[1])
-        self.assertEqual(result, 4)
+        result = subtraction(data[0],data[1])
+        self.assertEqual(result, 15)
         
      
 
