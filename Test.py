@@ -11,7 +11,7 @@ class TestSum(unittest.TestCase):
         """
         data = [20, 5]
         result = division(data[0],data[1])
-        self.assertEqual(result, 600)
+        self.assertEqual(result, 4)
         
      
 
